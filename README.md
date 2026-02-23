@@ -1,16 +1,78 @@
-## Hi there 👋
+# 👋 Hi, I'm Ibrahim
 
-<!--
-**ibrhmethmx7/ibrhmethmx7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full-stack developer focused on scalable web apps, AI tools, and automation systems.
+I build production-ready SaaS platforms, custom backends, and high-performance web solutions.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Tech Stack
+
+**Frontend**
+
+* Next.js
+* React
+* Tailwind CSS
+* HTML5 / CSS3
+* JavaScript / TypeScript
+
+**Backend**
+
+* Node.js
+* PHP
+* Python
+* REST APIs
+* Webhook Systems
+
+**Database & Tools**
+
+* PostgreSQL
+* MySQL
+* MongoDB
+* Git & GitHub
+* Vercel
+
+**Focus Areas**
+
+* AI integrations
+* SaaS development
+* Automation systems
+* Subscription & payment systems
+* Performance optimization
+
+---
+
+## 🔒 Selected Private Projects
+
+* replica-watch — luxury product web system
+* bekchat-backend — real-time chat backend
+* ultra-image-optimizer — advanced image optimization engine
+* imageuploader — scalable media upload service
+* autobuy — automated purchasing bot
+* crypto-payment — crypto payment infrastructure
+* backlink-analyzer — SEO analysis tool
+* google-review — review automation system
+* luxury-watch-raffle — raffle platform
+* nextjss — modern Next.js infrastructure
+
+> Many production projects are private due to client work and commercial use.
+
+---
+
+## 🌐 Public Projects
+
+* ai-blog-generator-wordpress — AI powered WordPress plugin
+* credit-card — HTML/CSS component
+* chatpdf-yt — AI PDF chat interface
+* ai_saas_app — SaaS starter with AI
+* nextjs-tailwind-course-landing-page — landing page template
+
+---
+
+## 📫 Contact
+
+* 💼 Building under **Darksn**
+* 🌍 Open to freelance & SaaS collaborations
+
+---
+
+⭐ From Ibrahim — building fast, scalable and clean systems.
