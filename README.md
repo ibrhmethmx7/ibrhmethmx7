@@ -56,23 +56,6 @@ I build production-ready SaaS platforms, custom backends, and high-performance w
 
 > Many production projects are private due to client work and commercial use.
 
----
 
-## 🌐 Public Projects
 
-* ai-blog-generator-wordpress — AI powered WordPress plugin
-* credit-card — HTML/CSS component
-* chatpdf-yt — AI PDF chat interface
-* ai_saas_app — SaaS starter with AI
-* nextjs-tailwind-course-landing-page — landing page template
 
----
-
-## 📫 Contact
-
-* 💼 Building under **Darksn**
-* 🌍 Open to freelance & SaaS collaborations
-
----
-
-⭐ From Ibrahim — building fast, scalable and clean systems.
