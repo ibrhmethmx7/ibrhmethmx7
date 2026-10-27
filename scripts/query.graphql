@@ -1,0 +1,18 @@
+query {
+  viewer {
+    login
+    name
+    followers { totalCount }
+    pullRequests { totalCount }
+    issues { totalCount }
+    repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) { totalCount }
+    repositories(first: 100, ownerAffiliations: [OWNER], isFork: false) {
+      totalCount
+      nodes { isPrivate stargazerCount }
+    }
+    contributionsCollection {
+      totalCommitContributions
+      restrictedContributionsCount
+    }
+  }
+}

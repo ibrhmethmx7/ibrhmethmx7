@@ -1,0 +1,29 @@
+name: Refresh stats card
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # PROFILE_TOKEN: fine-grained or classic PAT that can read your private repos
+      - run: python scripts/gen.py
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || git commit -m "chore: refresh stats card"
+          git push
