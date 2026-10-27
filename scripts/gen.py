@@ -5,6 +5,7 @@ script queries the GraphQL API with your own token and draws the same card.
 
 Usage:
   GH_TOKEN=... python scripts/gen.py            # fetch from the GraphQL API
+  ./scripts/refresh.sh                          # fetch with your gh login, commit and push
   python scripts/gen.py --data sample.json      # render from a saved response
 """
 import json
